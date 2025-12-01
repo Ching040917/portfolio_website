@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio - Web Developer & Designer">
+    <title>Home - My Portfolio</title>
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Custom CSS (overrides Bootstrap where needed) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html">My Portfolio</a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to My Portfolio</h1>
+                <p class="hero-subtitle">Creative Web Developer & Designer</p>
+                <p class="hero-description">
+                    Hi, I’m Ching Qing Yang, a Year 2 Software Engineering student from Southern University College. I
+                    enjoy building software,
+                    learning new tech, and working on projects that help me grow as a developer. Welcome to my
+                    portfolio!
+                </p>
+                <div class="hero-buttons">
+                    <a href="projects.html" class="btn btn-primary">View My Work</a>
+                    <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="image9.jpg"
+                    alt="Web development workspace with laptop and code">
+            </div>
+        </section>
+
+        <!-- Scrolling Gallery Section -->
+        <section class="scrolling-gallery">
+            <div class="container" style="text-align: center; margin-bottom: 3rem;">
+                <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Life Recently</h2>
+                <p style="font-size: 1.25rem; color: var(--primary-color); font-weight: 600;">
+                    📍 Singapore Fintech Festival 2025
+                </p>
+            </div>
+            <div class="gallery-container">
+                <div class="gallery-track">
+                    <!-- Original Items -->
+                    <div class="gallery-item">
+                        <img src="image1.jpeg" alt="Singapore Fintech Festival 2025">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image2.jpeg" alt="SFF 2025 Event">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image3.jpeg" alt="Fintech Exhibition">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image4.jpeg" alt="Tech Showcase">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image5.jpeg" alt="Networking at SFF">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image6.jpeg" alt="Singapore Fintech Festival Highlights">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image7.jpeg" alt="SFF 2025 Moments">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image8.jpeg" alt="Fintech Innovation">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image10.jpeg" alt="SFF Conference">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image11.jpeg" alt="Future of Finance">
+                    </div>
+
+                    <!-- Duplicate Items for Infinite Scroll -->
+                    <div class="gallery-item">
+                        <img src="image1.jpeg" alt="Singapore Fintech Festival 2025">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image2.jpeg" alt="SFF 2025 Event">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image3.jpeg" alt="Fintech Exhibition">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image4.jpeg" alt="Tech Showcase">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image5.jpeg" alt="Networking at SFF">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image6.jpeg" alt="Singapore Fintech Festival Highlights">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image7.jpeg" alt="SFF 2025 Moments">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image8.jpeg" alt="Fintech Innovation">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image10.jpeg" alt="SFF Conference">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="image11.jpeg" alt="Future of Finance">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Overview Section -->
+        <section class="overview">
+            <div class="container">
+                <h2>What I'm Learning</h2>
+                <div class="overview-grid">
+                    <article class="overview-card">
+                        <h3>🎨 JavaFx programming</h3>
+                        <p>Exploring design principles and creating user-friendly interfaces for javafx applications.</p>
+                        <a href="projects.html">See Projects →</a>
+                    </article>
+                    <article class="overview-card">
+                        <h3>💻 Web Development</h3>
+                        <p>Learning HTML, CSS, JavaScript, and frameworks to build interactive websites.</p>
+                        <a href="projects.html">Learn More →</a>
+                    </article>
+                    <article class="overview-card">
+                        <h3>🚀 Problem Solving</h3>
+                        <p>Developing coding skills through practice, challenges, and building real projects.</p>
+                        <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">Resources →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/Ching040917" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5.3 JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
